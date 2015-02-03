@@ -11,7 +11,7 @@
 }
 .cb-slideshow:after { 
     content: '';
-    background: transparent url(../img/pattern.png) repeat top left; 
+    background: rgba(0,0,0,0.3) url(../img/pattern.png) repeat top left; 
 }
 .cb-slideshow li span { 
     width: 100%;
@@ -33,7 +33,7 @@
     animation: imageAnimation 36s linear infinite 0s; 
 }
 .cb-slideshow li div { 
-    z-index: 1000;
+    z-index: 0;
     position: absolute;
     bottom: 30px;
     left: 0px;
