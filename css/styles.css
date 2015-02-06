@@ -4,7 +4,6 @@
 	display: block;
 	margin: 0 auto;
 	padding-top: 10%;
-	z-index: 1500;
 	color: black;
 	position: relative;
 	top: 0;
@@ -13,8 +12,14 @@
 }
 
 #splash-sections-container {
-	margin-top: 100px;
+	position: fixed;
 	margin-left: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-bottom: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .splash-section {
@@ -38,7 +43,22 @@
 	font-family: 'Crimson Text', serif;
 }
 
+.vision, .folio, .service {
+	min-height: 100vh;
+	position: fixed;
+	top: 0;
+	background-color: #302F2D;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 400px) {
 	#official-logo {width: 200px;}
+	#splash-sections-container {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
 }
