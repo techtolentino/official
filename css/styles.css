@@ -54,6 +54,11 @@
 	display: none;
 }
 
+#vision-menu, #folio-menu, #service-menu {
+	text-align: left;
+	color: #f7fcfb;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 400px) {
 	#official-logo {width: 200px;}

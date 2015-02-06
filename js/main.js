@@ -1,5 +1,20 @@
 $(document).ready(function() {
-    $('#splash-sections-container').click({
-    	
-    })
+	$('#vision').click(function(){
+		$('.vision').fadeToggle();
+		$('#official-logo').fadeToggle();
+		$('#folio').fadeToggle();
+		$('#service').fadeToggle();
+	});
+	$('#folio').click(function(){
+		$('.folio').fadeToggle();
+		$('#official-logo').fadeToggle();
+		$('#vision').fadeToggle();
+		$('#service').fadeToggle();
+	});
+	$('#service').click(function(){
+		$('.service').fadeToggle();
+		$('#official-logo').fadeToggle();
+		$('#vision').fadeToggle();
+		$('#folio').fadeToggle();
+	});
 });
