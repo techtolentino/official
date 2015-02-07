@@ -1,5 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Crimson+Text);
 
+@font-face {
+	font-family: Rurable;
+	src: url('./../font/Rurable_PersonalUseOnly.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .container {
 	display: block;
 	margin: 0 auto;
@@ -24,32 +31,33 @@
 
 .splash-section {
 	border: 1px solid transparent;
-	border-bottom: 3px solid rgba(255, 255, 234, 0.5);
+	border-bottom: 1px solid rgba(255, 255, 234, 0.5);
 	color: #edfffb;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 20px;
+
 }
 
 
 #about:hover {
-	border-bottom: 3px solid #ff0047;
+	border-bottom: 1px solid #ff0047;
 	cursor: pointer;
 }
 
 #work:hover {
-	border-bottom: 3px solid #00b2ff;
+	border-bottom: 1px solid #00b2ff;
 	cursor: pointer;
 }
 
 #contact:hover {
-	border-bottom: 3px solid #07ff9b;
+	border-bottom: 1px solid #07ff9b;
 	cursor: pointer;
 }
 
 .splash-section h5 {
 	margin-bottom: 0;
-	font-family: 'Crimson Text', serif;
+	font-family: Rurable, cursive;
 }
 
 .about, .work, .contact {
