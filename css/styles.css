@@ -39,19 +39,32 @@
 
 }
 
+#about {
+	border-bottom: 1px solid #ff0047;
+}
+
+#work {
+	border-bottom: 1px solid #00b2ff;
+}
+
+#contact {
+	border-bottom: 1px solid #07ff9b;
+}
+
+
 
 #about:hover {
-	border-bottom: 1px solid #ff0047;
+	border: 1px solid #ff0047;
 	cursor: pointer;
 }
 
 #work:hover {
-	border-bottom: 1px solid #00b2ff;
+	border: 1px solid #00b2ff;
 	cursor: pointer;
 }
 
 #contact:hover {
-	border-bottom: 1px solid #07ff9b;
+	border: 1px solid #07ff9b;
 	cursor: pointer;
 }
 
