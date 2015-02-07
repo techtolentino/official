@@ -1,20 +1,20 @@
 $(document).ready(function() {
-	$('#vision').click(function(){
-		$('.vision').fadeToggle();
+	$('#about').click(function(){
+		$('.about').fadeToggle();
 		$('#official-logo').fadeToggle();
-		$('#folio').fadeToggle();
-		$('#service').fadeToggle();
+		$('#work').fadeToggle();
+		$('#contact').fadeToggle();
 	});
-	$('#folio').click(function(){
-		$('.folio').fadeToggle();
+	$('#work').click(function(){
+		$('.work').fadeToggle();
 		$('#official-logo').fadeToggle();
-		$('#vision').fadeToggle();
-		$('#service').fadeToggle();
+		$('#about').fadeToggle();
+		$('#contact').fadeToggle();
 	});
-	$('#service').click(function(){
-		$('.service').fadeToggle();
+	$('#contact').click(function(){
+		$('.contact').fadeToggle();
 		$('#official-logo').fadeToggle();
-		$('#vision').fadeToggle();
-		$('#folio').fadeToggle();
+		$('#about').fadeToggle();
+		$('#work').fadeToggle();
 	});
 });

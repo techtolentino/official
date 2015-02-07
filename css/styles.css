@@ -24,18 +24,27 @@
 
 .splash-section {
 	border: 1px solid transparent;
-	border-bottom: 1px solid rgba(255, 255, 234, 0.5);
+	border-bottom: 3px solid rgba(255, 255, 234, 0.5);
 	color: #edfffb;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 20px;
 }
 
-.splash-section:hover {
-	border: 1px solid rgba(180, 193, 0, 0.9);
-	color: rgba(180, 193, 0, 0.9);
+
+#about:hover {
+	border-bottom: 3px solid #ff0047;
 	cursor: pointer;
-	border-radius: 2px;
+}
+
+#work:hover {
+	border-bottom: 3px solid #00b2ff;
+	cursor: pointer;
+}
+
+#contact:hover {
+	border-bottom: 3px solid #07ff9b;
+	cursor: pointer;
 }
 
 .splash-section h5 {
@@ -43,7 +52,7 @@
 	font-family: 'Crimson Text', serif;
 }
 
-.vision, .folio, .service {
+.about, .work, .contact {
 	min-height: 100vh;
 	position: fixed;
 	top: 0;
@@ -54,7 +63,7 @@
 	display: none;
 }
 
-#vision-menu, #folio-menu, #service-menu {
+#about-menu, #work-menu, #contact-menu {
 	text-align: left;
 	color: #f7fcfb;
 }
