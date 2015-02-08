@@ -79,12 +79,11 @@
 .about, .work, .contact {
 	min-height: 100%;
 	background-color: transparent;
-	/*position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;*/
 	display: none;
+}
+
+.logofy {
+	max-width: 170px;
 }
 
 #about-menu, #work-menu, #contact-menu {
