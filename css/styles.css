@@ -51,8 +51,6 @@
 	border-bottom: 1px solid #07ff9b;
 }
 
-
-
 #about:hover {
 	border: 1px solid #ff0047;
 	cursor: pointer;
@@ -95,5 +93,13 @@
 	#splash-sections-container {
 		padding-left: 40px;
 		padding-right: 40px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.splash-section {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding: 10px;
 	}
 }
