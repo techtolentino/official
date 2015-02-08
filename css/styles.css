@@ -10,7 +10,7 @@
 .container {
 	display: block;
 	margin: 0 auto;
-	padding-top: 10%;
+	padding-top: 5%;
 	color: black;
 	position: relative;
 	top: 0;
@@ -19,11 +19,12 @@
 }
 
 #splash-sections-container {
-	position: fixed;
+/*	position: fixed;
 	margin-left: 0;
 	bottom: 0;
 	left: 0;
-	right: 0;
+	right: 0;*/
+	margin-top: 50px;
 	margin-bottom: 50px;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -36,7 +37,6 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 20px;
-
 }
 
 #about {
@@ -66,19 +66,24 @@
 	cursor: pointer;
 }
 
+#profile {
+	/*border-radius: 50%;*/
+	max-width: 175px;
+}
+
 .splash-section h5 {
 	margin-bottom: 0;
 	font-family: Rurable, cursive;
 }
 
 .about, .work, .contact {
-	min-height: 100vh;
-	position: fixed;
+	min-height: 100%;
+	background-color: transparent;
+	/*position: fixed;
 	top: 0;
-	background-color: #302F2D;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	bottom: 0;*/
 	display: none;
 }
 
@@ -88,6 +93,17 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 500px) {
+	#official-logo {width: 200px;}
+	#splash-sections-container {
+		padding-left: 40px;
+		padding-right: 40px;
+		margin-top: 50px;
+	}
+	#profile {max-width: 120px;}
+}
+
+
 @media screen and (max-width: 400px) {
 	#official-logo {width: 200px;}
 	#splash-sections-container {
